@@ -1,6 +1,3 @@
-FROM nginx:latest
+FROM php:fpm
 
 RUN apt-get update -y
-
-EXPOSE 80
-
